@@ -1,0 +1,266 @@
+.container{
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 1540px){
+    .container{
+        max-width: 1280px;
+    }
+}
+@media screen and (max-width: 1340px){
+    .container{
+        max-width: 960px;
+    }
+}    
+@media screen and (max-width: 980px){
+    .container{
+        max-width: 740px;
+    }
+}    
+@media screen and (max-width: 780px){
+    .container{
+        max-width: 480px;
+    }
+}    
+
+.row{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+/* nettoyer l'espace de flottaison */
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/*.row{
+    overflow: hidden;
+}*/
+[class*="col-"]{
+    float: left;
+    padding: 0 10px;
+    width: 100%;
+}
+.col-1{width:8.333333%;}
+.col-2{width:16.666666%;}
+.col-3{width:25%;}
+.col-4{width:33.333333%}
+.col-5{width:41.666666%}
+.col-6{width:50%}
+.col-7{width:58.333333%;}
+.col-8{width:66.666666%}
+.col-9{width:75%}
+.col-10{width:83.333333%}
+.col-11{width:91.666666%}
+.col-12{width:100%}
+
+@media screen and (max-width: 779px) {
+    [class*="col-"]{
+        width: 100%;
+    }
+}
+.col-push-1{margin-left:8.333333%;}
+.col-push-2{margin-left:16.666666%;}
+.col-push-3{margin-left:25%;}
+.col-push-4{margin-left:33.333333%}
+.col-push-5{margin-left:41.666666%}
+.col-push-6{margin-left:50%}
+.col-push-7{margin-left:58.333333%;}
+.col-push-8{margin-left:66.666666%}
+.col-push-9{margin-left:75%}
+.col-push-10{margin-left:83.333333%}
+.col-push-11{margin-left:91.666666%}
+.col-push-12{margin-left:100%}
+}
+
+/* --------------------------------------
+--------------- HELPERS -----------------
+--------------------------------------  */
+
+.txt-left{text-align:left;}
+.txt-center{text-align:center;}
+.txt-right{text-align: right;}
+.txt-justify{text-align: justify;}
+
+
+.border-test{border:solid 1px black;} *//*Uniquement pour visualiser les bordures pendant la construction - Retirer quand terminé
+
+
+
+
+/*
+
+p, m : padding, margin
+a, t, r, b, l : none, all, top, right, bottom, left
+n, s, m, l : small, medium, large
+
+*/
+.txt-left {
+    text-align: left
+}
+.txt-center {
+    text-align: center
+}
+.txt-right {
+    text-align: right
+}
+
+.col-6{
+    text-align: center;
+}
+.man {
+    margin: 0px!important
+}
+.mas {
+    margin: 20px!important
+}
+.mam {
+    margin: 40px!important
+}
+.mal {
+    margin: 60px!important
+}
+.mtn {
+    margin-top: 0px!important
+}
+.mts {
+    margin-top: 20px!important
+}
+.mtm {
+    margin-top: 40px!important
+}
+.mtl {
+    margin-top: 60px!important
+}
+.mtxs {
+    margin-top: 10px!important
+}
+.mrn {
+    margin-right: 0px!important
+}
+.mrs {
+    margin-right: 20px!important
+}
+.mrm {
+    margin-right: 40px!important
+}
+.mrl {
+    margin-right: 60px!important
+}
+.mbn {
+    margin-bottom: 0px!important
+}
+.mbs {
+    margin-bottom: 20px!important
+}
+.mbm {
+    margin-bottom: 40px!important
+}
+.mbl {
+    margin-bottom: 60px!important
+}
+.mbm2 {
+    margin-bottom: 44px!important
+}
+.mln {
+    margin-left: 0px!important
+}
+.mls {
+    margin-left: 20px!important
+}
+.mlm {
+    margin-left: 40px!important
+}
+.mll {
+    margin-left: 60px!important
+}
+.pan {
+    padding: 0px!important
+}
+.pas {
+    padding: 20px!important
+}
+.pam {
+    padding: 40px!important
+}
+.pal {
+    padding: 60px!important
+}
+.ptn {
+    padding-top: 0px!important
+}
+.pts {
+    padding-top: 20px!important
+}
+.ptm {
+    padding-top: 40px!important
+}
+.ptl {
+    padding-top: 60px!important
+}
+.ptxxl {
+    padding-top: 120px!important
+}
+.prn {
+    padding-right: 0px!important
+}
+.prs {
+    padding-right: 20px!important
+}
+.prm {
+    padding-right: 40px!important
+}
+.prl {
+    padding-right: 60px!important
+}
+.pbn {
+    padding-bottom: 0px!important
+}
+.pbxs {
+    padding-bottom: 10px!important
+}
+.pbs {
+    padding-bottom: 20px!important
+}
+.pbm {
+    padding-bottom: 40px!important
+}
+.pbl {
+    padding-bottom: 60px!important
+}
+.pbxxl {
+    padding-bottom: 120px!important
+}
+.pln {
+    padding-left: 0px!important
+}
+.pls {
+    padding-left: 20px!important
+}
+.plm {
+    padding-left: 40px!important
+}
+.pll {
+    padding-left: 60px!important
+}
+.plxl {
+    padding-left: 80px!important
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Shadows+Into+Light');
+
+/* --HEADER-- */
+header{
+	padding: 20px;
+	background-color: white; 
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+.logo{
+	margin: 15px auto;
+}
+.main_nav ul li{
+	float: left;
+	margin:0 auto;
+	padding: 20px 10px 10px 0;
+}
+.main_nav ul li a{
+	color: black;
+	font-size: 20px;
+	font-family: 'open sans';
+	text-decoration: none;
+}
+.main_nav ul li a:hover {
+	color: orange;
+}
+.nav_customer ul{
+	float: right;
+	margin: 0 auto;
+}
+.nav_customer ul li a{
+	margin: 20px 15px 15px 0;
+	
+}
+.nav_customer ul li:nth-of-type(3) a{
+	border: 1px solid #888888;
+	border-radius: 3px;
+	padding: 1px 3px;
+	box-shadow: 5px 5px 5px #888888;
+}
+/* --SECTION 1-- */
+#section_1{
+	padding: 400px 0;
+	background-image: url(../img/back-3.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#section_1 .container{
+	background-color: rgba(0,0,0,.6);
+}
+h1{
+	color: white;
+	font-size: 48px;
+	font-family: 'open sans';
+	font-weight: 700;
+}
+#section_1 .container span{
+	color: white;
+	font-size: 48px;
+	font-family: 'Shadows Into Light', cursive;
+	display: block;
+}
+#section_1 .titre img{
+	width: 150px;
+	height: 150px;
+}
+h2{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 48px;
+	font-weight: 700;
+	margin: 30px 0;
+}
+.titre p{
+	display: block;
+	font-family: 'Shadows Into Light';
+	font-size: 28px;
+	line-height: 30px;
+	text-transform: uppercase;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+/* --SECTION 2-- */
+#section_2{
+	background-image: url(../img/intersection.png);
+	background-repeat: repeat;
+	background-position: top center;
+	background-attachment: fixed;
+	padding-top: 20px;
+}
+.container .video iframe{
+	margin-top: 40px;
+}
+/*.instru-list{
+	margin-top: 20px;
+}*/
+h3{	
+	color: black;
+	font-size: 22px;
+	font-family: 'open sans';
+	font-weight: 700;
+
+}
+#section_2 ul a{
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+#section_2 ul li{
+	font-family: 'Shadows Into Light';
+	padding-top: 5px;
+}
+.new_instru-list{
+	padding: 8px 0px 0 0px;
+
+}
+.new_instru-list li img{
+	width: 130px;
+	height: 100%;
+}
+#section_2 ul span{
+	display: block;
+	color: black;
+	font-size: 22px;
+	font-family: 'Shadows Into Light';
+	font-weight: 600;
+	margin-top: 20px;
+}
+/* --SECTION 3-- */
+ #section_3{
+	background-image: url(../img/instruments-hero.jpg);
+	background-repeat: repeat;
+	background-position: top center;
+	background-attachment: fixed;
+	background-size: contain;
+}
+#section_3>.container{
+	background-color: rgba(255, 255, 255, 0.9);
+ }
+#section_3 .creativeflow{
+	float: left;
+}
+#section_3 .creativeflow img{
+	padding-top: 15px;
+}
+.listcreativeflow{
+	margin-top: 15px;
+	color: black;
+	font-size: 20px;
+	font-family: 'Shadows Into Light';
+}
+#section_3 span{
+	color: black;
+	font-size: 20px;
+	font-family: 'Shadows Into Light';
+	font-weight: 700;
+	padding-bottom: 15px;
+	display: block;
+}
+#section_3 h2{
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 2px;
+	box-shadow: 10px 10px 5px #888888;
+	padding: 30px;
+}
+#section_3 .creativeflow p,
+#section_3 .recording p{
+	display: block;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	line-height: 20px;
+	text-align: left;
+}
+#section_3 .recording p{
+	margin: 25px 0;
+}
+#section_3 .recording img{
+	margin-top: 10%;
+}
+#section_3 .recording .btn_decouvrir{
+	display: block;
+	width: 130px;
+	height: 30px;
+	font-family: 'open sans';
+	font-size: 14px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	border-radius: 2px;
+	box-shadow: 10px 10px 5px #888888;
+	text-decoration: none;
+	text-align: center;
+	padding: 7px 2px;
+	float: right;
+	margin: 20px 0;
+
+}
+/* --SECTION 4-- */
+ #section_4{
+	background-image: url(../img/intersection.png);
+	background-repeat: repeat;
+	background-position: top center;
+	background-attachment: fixed;
+	padding-top: 20px;
+	height: 93vh;
+	text-align: center;
+}
+#section_4 img{
+	width: 600px;
+	height: 600px;
+	margin: 20px auto 0;
+}
+
+
+
+
+
+@media screen and (max-width: 479px){
+	.main_nav ul li, 
+	.nav_customer ul li{
+		display: block;
+	}
+}
